@@ -1,11 +1,11 @@
 # Strategic Agency
-A full-service creative agency that embraces bold ideas and a strategic
-approach to solving business challenges. Focused on people and human
-relationships, we craft solutions that connect brands with their audiences
-in meaningful ways.
+A creative agency that embraces bold ideas and a strategic approach to
+solving business challenges. Focused on people and human relationships,
+we craft solutions that connect brands with their audiences in meaningful
+ways.
 
-Air is a full-service creative agency built on the belief that creativity
-and strategy go hand in hand.
+We believe in the power of creativity backed by strategy to make a real
+impact.
 
   [DEMO LINK](https://tuhusova.github.io/air-landing/)
 
