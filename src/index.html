@@ -13,7 +13,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="./images/logo/dia-logo.png"
+      href="./images/logo/Air.svg"
     />
     <link
       rel="preconnect"
@@ -57,7 +57,7 @@
           <div class="top-bar__left">
             <div class="top-bar__logo">
               <img
-                src="./images/logo/dia-logo.png"
+                src="./images/logo/Air.svg"
                 alt="Logo"
                 class="logo-image"
               />
@@ -179,7 +179,7 @@
           <div class="top-bar__left">
             <div class="top-bar__logo">
               <img
-                src="./images/logo/dia-logo.png"
+                src="./images/logo/Air.svg"
                 alt="Logo"
                 class="logo-image"
               />
@@ -685,7 +685,7 @@
       <div class="footer__items">
         <div class="footer__items--logo">
           <img
-            src="./images/logo/dia-logo.png"
+            src="./images/logo/Air.svg"
             alt="Logo"
             class="logo-image"
           />
@@ -738,7 +738,6 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script>
-      // Получаем все необходимые элементы
       const slides = document.querySelector('.header__slides');
       const prevButton = document.querySelector('.prev');
       const nextButton = document.querySelector('.next');
@@ -748,20 +747,17 @@
 
       let currentIndex = 0;
 
-      // Функция для обновления позиции слайдов
       function updateSlidePosition() {
         slides.style.transform = `translateX(-${currentIndex * 100}%)`;
       }
 
-      // Событие для кнопки "вперед"
       nextButton.addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % totalSlides; // Переход на следующий слайд
+        currentIndex = (currentIndex + 1) % totalSlides;
         updateSlidePosition();
       });
 
-      // Событие для кнопки "назад"
       prevButton.addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides; // Переход на предыдущий слайд
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
         updateSlidePosition();
       });
     </script>
