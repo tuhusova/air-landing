@@ -4,7 +4,7 @@ solving business challenges. Focused on people and human relationships,
 we craft solutions that connect brands with their audiences in meaningful
 ways.
 
-We believe in the power of creativity backed by strategy to make a real
+I believe in the power of creativity backed by strategy to make a real
 impact.
 
   [DEMO LINK](https://tuhusova.github.io/air-landing/)
